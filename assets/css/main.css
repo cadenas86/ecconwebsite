@@ -3028,6 +3028,8 @@ input, select, textarea {
 		.ecc4{
 			height: 150px;
 			width: 150px;
+			margin-right: auto;
+			margin-left: auto;
 		}
 
 	.header1{
@@ -3665,3 +3667,4 @@ input, select, textarea {
 			}
 
 }
+  }
