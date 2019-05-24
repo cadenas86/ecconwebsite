@@ -8,11 +8,25 @@
 .body1 {
   margin: 0;
   font-family: Arial;
+  background-color:rgb(5, 120, 5);
 }
 
 .header1 {
   text-align: center;
   padding: 32px;
+  color: white;
+}
+
+.header1 h1{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.header1 h1:hover{
+  transform: scale(1.1);
+transition: 1s;
 }
 
 .row1 {
@@ -29,13 +43,19 @@
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;
- 
 }
 
 .column1 img {
   margin-top: 8px;
   vertical-align: middle;
   height: 25%;
+  
+}
+
+.column1 img:hover{
+transform: scale(1.1);
+transition: 1s;
+
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -44,10 +64,24 @@
     -ms-flex: 50%;
     flex: 50%;
     max-width: 50%;
+    padding: 2%;
+  }
+
+  .column1 img {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+    padding: 2%;
   }
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column1 {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .column1 img {
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
@@ -61,51 +95,51 @@
 
 <!-- Header -->
 <div class="header1">
-  <h1>Projects</h1>
+  <a href="index.html"><h1>Projects</h1></a>
   <p>References Available Upon Request</p>
 </div>
 
 <!-- Photo Grid -->
 <div class="row1"> 
   <div class="column1">
-    <img src="images\IMG_14311.jpg" style="width:100%">
+    <a href="images\IMG_14311.jpg"><img src="images\IMG_14311.jpg" style="width:100%"></a>
    
-    <img src="images\IMG_05791.jpg" style="width:100%">
+    <a href="images\IMG_05791.jpg"><img src="images\IMG_05791.jpg" style="width:100%"></a>
     
-    <img src="images\IMG_10521.jpg" style="width:100%">
+    <a href="images\IMG_10521.jpg"><img src="images\IMG_10521.jpg" style="width:100%"></a>
 
-    <img src="images\IMG_02821.jpg" style="width:100%">
+    <a href="images\IMG_02821.jpg"><img src="images\IMG_02821.jpg" style="width:100%"></a>
     
    </div>
   
   <div class="column1">
-    <img src="images\IMG_05801.jpg" style="width:100%">
+    <a href="images\IMG_05801.jpg"><img src="images\IMG_05801.jpg" style="width:100%"></a>
     
-    <img src="images\IMG_05811.jpg" style="width:100%">
+    <a href="images\IMG_05811.jpg"><img src="images\IMG_05811.jpg" style="width:100%"></a>
     
-    <img src="images\IMG_07211.jpg" style="width:100%">
+    <a href="images\IMG_07211.jpg"><img src="images\IMG_07211.jpg" style="width:100%"></a>
     
-    <img src="images\IMG_02711.jpg" style="width:100%">
+    <a href="images\IMG_02711.jpg"><img src="images\IMG_02711.jpg" style="width:100%"></a>
     
     </div>  
 
   <div class="column1">
-        <img src="images\IMG_05741.jpg" style="width:100%">
+    <a href="images\IMG_05741.jpg"><img src="images\IMG_05741.jpg" style="width:100%"></a>
         
-        <img src="images\IMG_05751.jpg" style="width:100%">
+    <a href="images\IMG_05751.jpg"><img src="images\IMG_05751.jpg" style="width:100%"></a>
         
-        <img src="images\IMG_03631.jpg" style="width:100%">
+    <a href="images\IMG_03631.jpg"><img src="images\IMG_03631.jpg" style="width:100%"></a>
        
       
       
   </div>
-        <div class="column1">
-          <img src="images\IMG_05781.jpg" style="width:100%">
+    <div class="column1">
+    <a href="images\IMG_05781.jpg"><img src="images\IMG_05781.jpg" style="width:100%"></a>
         
-          <img src="images\IMG_05791.jpg" style="width:100%">
+    <a href="images\IMG_05791.jpg"><img src="images\IMG_05791.jpg" style="width:100%"></a>
   
          
-          <img src="images\IMG_06871.jpg" style="width:100%">
+    <a href="images\IMG_06871.jpg"><img src="images\IMG_06871.jpg" style="width:100%"></a>
         
         
   </div>
